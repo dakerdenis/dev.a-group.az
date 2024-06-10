@@ -63,10 +63,7 @@
         <script src="https://www.google.com/recaptcha/api.js?hl={{ \Illuminate\Support\Facades\App::getLocale() }}"
                 async defer>
         </script>
-        <script
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1pqUc1_FU-zOAH0eSQtTs3nnFWTVSkH0&callback=initMap&v=weekly&language={{ \Illuminate\Support\Facades\App::getLocale()  }}"
-            defer
-        ></script>
+
 
         <script>
             function initMap() {
